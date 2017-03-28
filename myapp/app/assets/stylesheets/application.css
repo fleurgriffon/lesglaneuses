@@ -13,7 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+ body .navbar {
+   margin-bottom:0px;
+ }
+ body a, a:link, a:visited{
+   text-decoration: none;
+ }
+
  body{
    width:100vw;
    height: 200vh;
+ }
+ .jumbotron{
+      height: 100vh;
  }
